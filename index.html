@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Fábio Caldas</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h3 class="nav-logo">Fábio.</h3>
+            <div class="menu-toogle" onclick="handleNavbar()">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#portfolio">Portifólio</a></li>
+            </ul>    
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-container">
+            <div class="home-texts">
+                <h1>Fábio Caldas</h1>
+                <h3>Web Developer</h3>
+    
+                <p>Sou um desenvolvedor front-end apaixado pelo desenvolvimento de software principalmente na área web disposto a entregar as melhores soluções.</p>
+                <a class="home-btn" href="#skills">Habilidades</a>
+            </div>
+        </div>
+    </section>    
+    
+    <main id="about">
+        <div class="about-start">
+            <h1>SOBRE MIM</h1>
+        </div>
+        
+        <div class="about-text">
+            <img src="./assets/me-profile.png" alt="" class="about-profile">
+            <p>
+                Olá, me chamo Fábio Caldas da Silva. Comecei a programar deis dos meus 15 anos, isso acabou se tornando uma paixão e inclusive minha profissão.
+                <br><br>
+                Estou focado em aperfecioar minhas aplicações, buscando estudar as principais bibliotecas e frameworks disponíveis no mercado. Passo boa parte do meu tempo estudando ou trabalhando em algum projeto pessoal e corporativo.
+                <br><br>
+                Curso atualmente engenharia de software em São Luís (Maranhão) na UNDB (Centro Universitário Dom Bosco) o 8º melhor centro universitário do Brasil e tenho um estágio na plataforma Dia de Obra.  
+                <br><br>
+                Tenho interesse em fazer a minha especialização na área web e mobile.
+            </p>
+        </div>    
+    </main>
+
+    <section id="skills">
+        <div class="skills-start"><h1>HABILIDADES</h1></div>
+
+        <div class="skills-container">
+            <div class="skill">
+                <img src="./assets/html.svg" alt="" class="skill-img">
+                <div class="skill-texts">
+                   <h1>HTML</h1>
+                   <p>É uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <img src="./assets/css.svg" alt="" class="skill-img">
+                <div class="skill-texts">
+                    <h1>CSS</h1>
+                    <p>É a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em Cascatas. É uma maneira de dar estilo ao código criado por linguagens como HTML, XML ou XHTML, por exemplo.</p>
+                 </div>
+            </div>
+    
+            <div class="skill">
+                <img src="./assets/js.svg" alt="" class="skill-img">
+                <div class="skill-texts">
+                    <h1>Javascript</h1>
+                    <p>É uma linguagem de script orientada a objetos, multiplataforma. É uma linguagem pequena e leve.</p>
+                 </div>
+            </div>
+
+            <div class="skill">
+                <img src="./assets/typescript.svg" alt="" class="skill-img">
+                <div class="skill-texts">
+                    <h1>Typescript</h1>
+                    <p>É um superconjunto de JavaScript, ou seja, um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript, adicionando recursos que não estão presentes de maneira nativa na linguagem.</p>
+                 </div>
+            </div>
+    
+            <div class="skill">
+                <img src="./assets/nodejs.png" alt="" class="skill-img">
+                <div class="skill-texts">
+                    <h1>NodeJS</h1>
+                    <p>É uma poderosa plataforma para construir de forma rápida e fácil aplicações de rede escaláveis. Utiliza um modelo de single thread, faz I/O não bloqueante, por isso trabalha sempre de forma assíncrona.</p>
+                 </div>
+            </div>
+    
+            <div class="skill">
+                <img src="./assets/mysql.svg" alt="" class="skill-img">
+                <div class="skill-texts">
+                    <h1>MySQL</h1>
+                    <p>É um sistema de gerenciamento de banco de dados (SGBD) relacional, ou seja, que utiliza a linguagem SQL como interface.</p>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="portfolio-start"><h1 class="portfolio-title">PROJETOS</h1></div>
+        <div class="portfolio-container"></div>
+    </section>
+
+    <footer>
+            <div class="icons">
+                <a href="mailto:fabiocaldas266@gmail.com"><img src="./assets/gmail.svg" alt="Entre em contato comigo"></a>
+                <a href="https://github.com/split04" target="_blank"><img src="./assets/github.svg" alt="Acesse meu Github"></a>
+                <a href="https://discord.com/users/754388038246858912" target="_blank"><img src="./assets/discord.svg" alt="Acesse meu Discord"></a>
+                <a href="https://www.instagram.com/fabioc_2/" target="_blank"><img src="./assets/instagram.svg" alt="Acesse meu instagram"></a>
+                <a href="https://likedin.com/" target="_blank"><img src="./assets/linkedin.svg" alt=""></a>
+            </div>
+          <p>©Copyright all rights reserved.</p>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
