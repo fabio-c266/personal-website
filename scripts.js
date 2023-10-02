@@ -12,7 +12,7 @@ function typeWrite(element) {
 setInterval(() => {
   const h3Element = document.querySelector(".home-texts h3");
   typeWrite(h3Element);
-}, 3000);
+}, 4000);
 
 fetch("https://api.github.com/users/fabio-c266/repos")
   .then((req) => {

@@ -93,6 +93,7 @@ header nav {
 
 .nav-menu li a:hover {
     opacity: 1;
+    color: #C51212;
     border-bottom: 2px solid #fffafa;
     transition-duration: 0.1s;
 }
